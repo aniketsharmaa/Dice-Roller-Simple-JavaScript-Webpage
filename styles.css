@@ -1,0 +1,81 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    transform-origin: center;
+    transition: 0.5s;
+    transition: ease-in;
+    text-align: center;
+    display: inline-block;
+}
+
+body {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+h1 {
+    margin: 30px;
+    font-family: cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #e20911;
+}
+
+p {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #e20911;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    /* border: 1px solid red; */
+    width: auto;
+    height: 40px;
+}
+
+button {
+    width: 10%;
+    font-size: large;
+    color: black;
+    background-color: white;
+    font-family: cursive;
+    box-shadow: rgb(187, 171, 171);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #e20911;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+button:active {
+    /* transition: 0.5s;
+    background-color: #e20911;
+    border-radius: 15px; */
+    text-decoration: none;
+    border-style: none;
+}
